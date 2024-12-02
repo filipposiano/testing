@@ -19,17 +19,8 @@
     will-change: transform;
 }
 
-.link-pulsante:active {
-    transform: translateY(8px);
-
-}
-
-.link-pulsante:visited {
-    transform: translateY(8px);
-}
-
 .link-pulsante:hover {
-    transform: translateY(-4px)
+    transform: translateY(8px);
 }
 
 .shadow {
@@ -51,5 +42,5 @@
 }
 
 .link-pulsante:hover + .shadow {
-    box-shadow: 0px 12px 6px rgb(158, 158, 158) ;
+    box-shadow: 0px 8px 6px rgb(158, 158, 158) ;
 }

@@ -17,18 +17,49 @@ html {
 }
 
 .lista-homepage {
+    transition: 0.2s;
     list-style: none;
-    position: absolute;
+    position: relative;
     padding: 0;
-   
 }
 
-.lista-homepage > li > a {
+.pulsante-home {
+    display: inline-block;
     text-decoration: none;
-    background-color: black;
+    background-color: rgb(1, 6, 40);
     padding: 10px;
     border-radius: 5px;
     color: white;
+    z-index: 1;
+    transition: 0.2s;
 }
 
+.container  {
+    display: flex;
+}
+
+.shadow {
+    position: absolute;
+    width: 85px;
+    height: 15px;
+    margin-top: 10px;
+    z-index: 0;
+    padding: 20px;
+    background-color: rgb(76, 76, 76);
+    box-shadow: 0px 10px 8px -5px rgb(158, 158, 158);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.pulsante-home:hover {
+    transition: 0.2s;
+    transform: translateY(5px);
+}
+
+.pulsante-home:hover + .shadow{
+    transition: 0.2s;
+    box-shadow: 0px 5px 8px -5px rgb(158, 158, 158);
+}
 
