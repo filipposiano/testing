@@ -25,28 +25,34 @@ html {
 
 .pulsante-home {
     display: inline-block;
+    width: 100%;
+    text-align: center;
     text-decoration: none;
     background-color: rgb(1, 6, 40);
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
     color: white;
     z-index: 1;
     transition: 0.2s;
+    margin: 20px;
 }
 
 .container  {
     display: flex;
+    position: relative;
+    justify-content: center;
 }
 
 .shadow {
     position: absolute;
-    width: 85px;
-    height: 15px;
-    margin-top: 10px;
+    top: 5px;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    margin: 25px;
     z-index: 0;
-    padding: 20px;
     background-color: rgb(76, 76, 76);
-    box-shadow: 0px 10px 8px -5px rgb(158, 158, 158);
+    box-shadow: 0px 10px 8px -6px rgb(158, 158, 158);
     border-radius: 10px;
     color: white;
     text-decoration: none;
@@ -55,7 +61,7 @@ html {
 
 .pulsante-home:hover {
     transition: 0.2s;
-    transform: translateY(5px);
+    transform: translateY(8px);
 }
 
 .pulsante-home:hover + .shadow{

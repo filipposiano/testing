@@ -1,0 +1,52 @@
+/*Crea una pagina HTML con tre elementi `div`. Applica un flex container ai tre elementi in modo che siano disposti in riga.*/
+
+.esercizio1 {
+    display: flex;
+}
+
+.flex-item1 {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+/*Crea una pagina HTML con quattro elementi `div`. Applica un flex container ai quattro elementi in modo che siano disposti in colonna.*/
+.esercizio2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item2 {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+/* Crea una pagina HTML con cinque elementi `div`. Applica un flex container ai cinque elementi in modo che siano disposti in riga e allineati al centro. */
+.esercizio3 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item3 {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/*Crea una pagina HTML con tre elementi. Applica un flex container ai tre elementi in modo che siano disposti in colonna e allineati al centro.*/
+
+.esercizio4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-item4 {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/*Crea una pagina HTML con quattro elementi. Applica un flex container ai quattro elementi in modo che siano disposti in riga e allineati al centro verticalmente.*/
+
+/*2.Scrivi codice HTML necessario per realizzare un form in figura e renderlo accessibile. Il codice CSS necessario per assegnare un colore di sfondo al bottone “accedi” e fare in modo che questo cambi al passaggio del mouse. Il codice CSS per inserire un bordo nero nelle caselle che diventa rosso nel momento in cui l’utente mette il cursore dentro la cella*/
+
